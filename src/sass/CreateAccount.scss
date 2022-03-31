@@ -1,0 +1,93 @@
+.create-names{
+    display: flex;
+}
+
+.email-phone-text{
+    .email-phone{
+        display: flex;
+    }
+}
+
+.passwords{
+    display: flex;
+}
+
+.createAccount{
+    background-color: #d4dff0;
+    
+    width: 80vw!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 10vw;
+    padding-bottom: 10%;
+}
+.brand-image{
+    display: flex;
+}
+
+.more-seller{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 3%;
+    .location-set-div{
+        display: flex;
+        .location-set{
+            background-color: red;
+            width: 150px;
+            color: white;
+            font-weight: 900;
+            font-size: 150%;
+            margin-left: 10%;
+            border-radius: 50px;
+            text-align: center;
+
+        }
+        .set-location{
+            background-color: blue;
+            font-weight: 800;
+        }
+    }
+}
+
+.account-form{
+    margin-bottom: 6%;
+    margin-top: 5%;
+    width: 50%;
+    text-align: left;
+    position: relative;
+    left: 25%;
+}
+
+@media only screen and (max-width: 780px) {
+    .createAccount{
+        width: 100vw!important;
+        left: 0;
+
+
+    }
+    .account-form{
+        width: 100%;
+        left: 0;
+        padding: 2%;
+
+
+    }
+
+
+
+}
+.closed{
+    position: relative;
+    text-align: center;
+    height: 50vh;
+    width: 50vw;
+    left: 25vw;
+    background-color: aqua;
+}
+.inner-container{
+    padding: 2%;
+}

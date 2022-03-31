@@ -1,0 +1,21 @@
+.logIn{
+    background-color: #d4dff0;
+    
+    width: 80vw!important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 10vw;
+    padding-bottom: 10%;
+    .login-form{
+        margin-bottom: 6%;
+        margin-top: 5%;
+        width: 50%;
+        text-align: left;
+        position: relative;
+        left: 25%;
+    }
+
+}

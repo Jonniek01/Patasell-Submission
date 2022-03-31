@@ -1,0 +1,74 @@
+$color:#0d1b92;
+
+.Page{
+    color: $color;
+    margin: 0;
+
+}
+.navcover{
+    height: 17vh;
+}
+.mobilecover{
+    display: none;
+}
+.mobile-head{
+    display: none;
+
+
+}
+.searchcover{
+    display: block;
+    height: 8vh;
+
+}
+
+.navmobilecover{
+    display: none;
+}
+
+
+@media only screen and (max-width: 780px) {
+    .navmobilecover{
+        display: block;
+        height:15vh;
+
+    }
+    
+    .navcover{
+        display: none;
+    }
+    .mobilecover{
+        display: block;
+        height: 6vh;
+
+    }
+    .searchcover{
+        display: block;
+        height: 6vh;
+
+    }
+    
+
+    
+    .mobile-head{
+        z-index: 999;
+
+        text-align: center;
+        color: white;
+        font-weight: 500;
+
+        height: 5vh;
+        display: block;
+        left: 0;
+        background-color: #0d1b92;
+        width: 100vw;
+        margin: 0;
+        border-bottom-left-radius: 10px;  
+        border-bottom-right-radius: 10px;  
+        position: fixed;
+        top:0;
+
+      }
+
+    
+}

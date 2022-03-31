@@ -1,0 +1,133 @@
+$color:#0d1b92;
+.nav-bar{
+    height:10vh;
+    position: fixed;
+    z-index: 999;
+    
+}
+.nav-bar-row{
+    background-color: white;
+}
+
+.logo-col{
+    text-align: center;
+    height:18vh;
+    border-radius: 3px;
+    text-align: center;
+    transition: all 1s;
+
+}
+.logo-link{
+
+    text-decoration: none;
+    .logo{
+        max-width: 80%;
+
+        color: #0d1b92;
+        margin-top: 30px;
+        transition: all 3s;
+
+
+
+    }
+
+}
+.logo-col:hover{
+    background-color: #0d1b92;
+    .logo{
+        color: white;
+
+    }
+}
+
+.profile-image-nav{
+
+    margin-top: 10px;
+
+}
+.nav-item{
+    padding-bottom: 10%;
+}
+.link{
+    max-width: 80%;
+    padding-left: 10%;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    transition: all 1s;
+    span{
+        color: $color;
+        font-weight: 800;
+        font-size: 130%;
+
+
+    }
+
+
+
+    .nav-icon{
+        margin-top: 10px;
+        color: $color;
+        font-size: 250%;
+        transition: all s;
+    }
+    .nav-icon:hover{
+        color: #0d1b92;
+
+
+    }
+    
+
+
+}
+.link:hover{
+    background-color: $color;
+
+    .nav-icon{
+        color: white;
+
+
+    }
+    span{
+        color: white;
+    }
+
+
+
+
+
+
+}
+.nav-bar-row{
+    height: 15vh;
+}
+
+@media only screen and (max-width: 780px) {
+    .logo-col{
+        display: none;
+    }
+    .nav-bar{
+        height:10vh;
+        position: fixed;
+        top: 85%;
+    }
+    .link{
+        background-color: white;
+    
+        .nav-icon{
+            color: $color;
+    
+    
+        }
+    
+    
+    
+    }
+        
+    
+
+}

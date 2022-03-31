@@ -1,0 +1,19 @@
+.back-search{
+    button{
+
+        border: 0px;
+        background-color: aqua;
+
+    }
+
+}
+
+.products-cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.seller-contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
